@@ -27,8 +27,8 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView
     private List<Recipe> recipes;
     public static Context context;
 
-    public RecipeAdapter(List<Recipe> recipes,Context context){
-        this.context=context;
+    public RecipeAdapter(List<Recipe> recipes) {
+
 
         this.recipes = recipes;
     }
