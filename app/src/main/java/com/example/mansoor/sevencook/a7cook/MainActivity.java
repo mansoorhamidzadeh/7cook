@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void getBanners(){
 
+
         apiService.getBanners(new Response.Listener<List<Banner>>() {
             @Override
             public void onResponse(List<Banner> banners) {
