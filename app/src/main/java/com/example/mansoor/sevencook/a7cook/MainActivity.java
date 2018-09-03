@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void getBanners(){
 
-
+//fixed
         apiService.getBanners(new Response.Listener<List<Banner>>() {
             @Override
             public void onResponse(List<Banner> banners) {
